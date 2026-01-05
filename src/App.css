@@ -1,0 +1,107 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Full screen gradient background */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Main card */
+.todo-card {
+  width: 420px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.todo-card h1 {
+  text-align: center;
+  color: #4f46e5;
+  margin-bottom: 20px;
+}
+
+/* Section spacing */
+.todo-card section {
+  margin-bottom: 20px;
+}
+
+/* Section headings */
+.todo-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Inputs */
+.todo-card input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.todo-card input:focus {
+  border-color: #4f46e5;
+}
+
+/* Buttons */
+.todo-card button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.todo-card button:hover {
+  background: #4338ca;
+}
+
+/* Workout list */
+.todo-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Workout card */
+.todo-card li {
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+/* Exercise rows */
+.todo-card li div {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+/* Small text */
+.todo-card small {
+  color: #555;
+}
+
+/* Delete icons */
+.todo-card button[style*="transparent"] {
+  width: auto;
+  padding: 0;
+  margin-left: 6px;
+}
